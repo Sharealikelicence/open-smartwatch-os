@@ -8,8 +8,8 @@
 
 class OswAppWiFiScan : public OswApp {
  public:
-  OswAppWiFiScan(void){};
-  OswAppWiFiScan(Stream* debugStream){};
+  OswAppWiFiScan(void);
+  OswAppWiFiScan(Stream* debugStream);
   void setup(OswHal * hal);
   void loop(OswHal* hal);
   void stop(OswHal* hal);
